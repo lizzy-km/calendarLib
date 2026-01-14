@@ -1,0 +1,13 @@
+{
+  "name": "calendar.js",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "repository": "git@lizzy-km.github.com:lizzy-km/calendar.js",
+  "author": "Kaung Myat Soe <kaungmyatsoe.devk@gmail.com>",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
