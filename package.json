@@ -2,12 +2,17 @@
   "name": "calendar.js",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "repository": "git@lizzy-km.github.com:lizzy-km/calendar.js",
+  "license": "MIT",
+  "repository": "git@lizzy-km.github.com:lizzy-km/calendarLib",
   "author": "Kaung Myat Soe <kaungmyatsoe.devk@gmail.com>",
   "type": "commonjs",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rimraf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
   }
 }
