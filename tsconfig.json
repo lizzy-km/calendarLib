@@ -3,5 +3,20 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  
+ "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "lib": ["ES2023","DOM"],
+        "declaration": true,
+        "outDir": "./dist/lib/es6",
+        "moduleResolution": "node" ,
+        "composite": true,
+            "noEmit": false,
+
+
+    },
+    "include": ["src/**/*"]
+    
 }
